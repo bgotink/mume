@@ -16,7 +16,8 @@ Er zijn zes basisemoties, waarvan 2 positieve, 4 negatieve. [(bron)](http://www.
 We kiezen voor het taartdiagram in [deze afbeelding](http://library.thinkquest.org/25500/emotions/media/circle4.gif), waarin verschillende emoties worden getoond. Hoe verder van het centrum, hoe "heviger" de emotie gevoeld wordt.
 
 ## Output
-Qua output zijn er verschillende mogelijkheden: 
+Qua output zijn er verschillende mogelijkheden:  
+
 * een kaart met "funspots", waar de gebruiker op kan zien waar hij/zij het (on)gelukkigst was,
 * een overzicht van een week met aangeduid wanneer de gebruiker het (on)gelukkigst was,
 * een overzicht van de verschillende mensen waarmee de persoon samen heeft gezeten, en
@@ -24,10 +25,10 @@ Qua output zijn er verschillende mogelijkheden:
 
 ## Storyboard afbeeldingen
 ### 1e draft
-__te scannen__
+_te scannen_
 
 ### 2e draft
-__te scannen__  
+_te scannen_  
 = "finaal" ontwerp
 
 ## TODO
