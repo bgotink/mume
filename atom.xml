@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Return of the MuMe</title>
+ <link href="http://bgotink.github.com/mume/atom.xml" rel="self"/>
+ <link href="http://bgotink.github.com/mume"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://bgotink.github.com/mume/</id>
+ <author>
+   <name>Bram Gotink</name>
+   <email>bram@gotink.me</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://bgotink.github.com/mume{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://bgotink.github.com/mume{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
